@@ -25,9 +25,12 @@ export const FeaturesBar = () => {
   return (
     <section className="py-12 px-[5%] border-t border-b border-white/10 bg-black/20">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-center text-white/70 text-sm mb-12 max-w-3xl mx-auto">
-          The Valyd Network is the new standard for identity infrastructure in the AI era.
+        <h2 className="text-center text-white text-2xl md:text-3xl font-semibold mb-4 max-w-3xl mx-auto">
+          The Network That Verifies Reality.
         </h2>
+        <p className="text-center text-white/60 text-sm mb-12 max-w-3xl mx-auto">
+          Every node on Valyd is a verified participant — human or business.
+        </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
             <div key={index} className="text-center">
@@ -42,7 +45,7 @@ export const FeaturesBar = () => {
           ))}
         </div>
         <p className="text-center text-white/60 text-sm mt-12">
-          Are you Valyd?
+          A Verifiable Internet for Humans and AI.
         </p>
       </div>
     </section>

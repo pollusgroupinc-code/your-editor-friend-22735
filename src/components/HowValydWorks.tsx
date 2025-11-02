@@ -43,27 +43,27 @@ export const HowValydWorks = () => {
   const steps = [{
     number: "1️⃣",
     icon: Bot,
-    title: "Meet Your AI Agent",
-    action: "When your account is created, you automatically get your AI agent and private cloud node.",
-    result: "All your data lives privately on your node — encrypted by your face, accessible only to you no third party not even we can access you data."
+    title: "Activation",
+    action: "You don't create an account — you spawn a node. A live FaceVector authenticates you as human and initializes your private cloud. Your Valyd Agent is born inside it.",
+    result: "A verified identity anchored to a private key — owned and controlled only by you."
   }, {
     number: "2️⃣",
     icon: Sprout,
-    title: "Add Data, Gain Power",
-    action: "Add verified credentials, employment, education, or financial data.",
-    result: "Your agent grows smarter — able to generate cryptographic proofs like \"age verified\" or \"licensed professional.\" It can even do your taxes."
+    title: "Encrypted Autonomy",
+    action: "Your node becomes your personal vault and proof engine. All data is encrypted by your facial signature; only your live biometric can unlock it. Even Valyd can't see it.",
+    result: "A sovereign identity — private, portable, cryptographically secured."
   }, {
     number: "3️⃣",
     icon: Shield,
-    title: "Share Proof, Not Data",
-    action: "When a business requests verification, your AI agent creates a zero-knowledge proof — no identifiable data ever leaves your cloud.",
-    result: "You stay private, they stay compliant. Proofs are reusable anywhere on Valyd — validate once, use everywhere, and revoke anytime."
+    title: "Proof Exchange",
+    action: "When verification is needed, your Agent produces zero-knowledge proofs that confirm facts without revealing data. Age, credentials, income, citizenship — proven, never exposed. Proofs are reusable across the network and revocable anytime.",
+    result: "Privacy and compliance in perfect alignment."
   }, {
     number: "4️⃣",
     icon: Globe,
-    title: "Join the Real Network",
-    action: "Log in, connect, hire, verify, and interact in an ecosystem of real users and verified businesses. Explore our Valyd ecosystem of social, messaging, gaming, storage and more! Always real.",
-    result: "No bots. No fakes. Not just trust. Real human proof."
+    title: "The Real Network",
+    action: "Each proof strengthens the network's graph of verified truth — connecting humans, businesses, and AI through cryptographic trust. From social platforms to logistics, elections to onboarding — the Valyd Network becomes the internet's default verification rail.",
+    result: "A verifiable internet — built on math, not belief."
   }];
   return <section ref={sectionRef} className="py-20 px-[5%] bg-gradient-to-b from-black/20 to-background">
       <div className="max-w-7xl mx-auto">
@@ -72,12 +72,22 @@ export const HowValydWorks = () => {
           
         </div>
 
+        <div className="text-center mb-4">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-white">
+            How Valyd Works
+          </h2>
+          <p className="text-xl text-white/70">
+            Simple mechanics. Global verification.
+          </p>
+        </div>
+
         {/* Tagline */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <p className="text-white font-bold text-xl md:text-2xl leading-relaxed">
-            Every Valyd account comes with an AI and a private cloud.<br />
-            <span className="bg-gradient-primary bg-clip-text text-transparent">
-              You control your data. You decide what's real.
+          <p className="text-white/80 text-lg leading-relaxed">
+            Every participant on Valyd — human, business, or AI — operates a private node on decentralized infrastructure.
+            <br />
+            <span className="text-white font-semibold">
+              Each node runs a Valyd Agent: an autonomous verifier that turns data into reusable, zero-knowledge proofs.
             </span>
           </p>
         </div>

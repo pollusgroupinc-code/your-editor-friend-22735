@@ -48,19 +48,22 @@ export const BusinessSection = () => {
   return (
     <section className="py-32 px-[5%] relative bg-[hsl(var(--cyan))]/5" id="business">
       <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-4 bg-gradient-to-r from-white to-[hsl(var(--cyan))] bg-clip-text text-transparent">
-        For Businesses: Same Network, More Power
+        For Businesses
       </h2>
-      <p className="text-center text-white/60 text-xl mb-16 max-w-3xl mx-auto">
-        Create a business account. Add multiple team members. Request custom proofs.
+      <p className="text-center text-white text-2xl mb-2 max-w-3xl mx-auto font-semibold">
+        The Same Network. More Power.
+      </p>
+      <p className="text-center text-white/60 text-lg mb-16 max-w-3xl mx-auto">
+        Businesses don't integrate Valyd — they build on it.
       </p>
 
       <div className="max-w-6xl mx-auto mb-12">
         <div className="bg-white/5 border-2 border-[hsl(var(--purple))]/30 rounded-[20px] p-12">
           <h3 className="text-[hsl(var(--purple))] text-3xl mb-6 text-center">
-            How Business Accounts Work
+            How Business Nodes Work
           </h3>
           <p className="text-white/85 text-lg leading-relaxed text-center mb-12">
-            It's the same as personal accounts, with three key differences: you need an EIN, you can add multiple team members' faces, and you can create custom proof templates to request specific data from users—without ever seeing their raw information.
+            Every enterprise node verifies itself with an EIN and KYB, adds authorized team faces, and gains access to Valyd's Proof API — the infrastructure rail for identity, credential, and compliance verification.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -103,7 +106,7 @@ export const BusinessSection = () => {
 
       <div className="max-w-6xl mx-auto mb-12">
         <div className="bg-white/5 border-2 border-[hsl(var(--cyan))]/30 rounded-[20px] p-12">
-          <h3 className="text-[hsl(var(--cyan))] text-3xl mb-8 text-center">Why Businesses Join Valyd Network</h3>
+          <h3 className="text-[hsl(var(--cyan))] text-3xl mb-8 text-center">Core Capabilities</h3>
           <div className="grid md:grid-cols-2 gap-8">
             {businessFeatures.map((feature, i) => (
               <div key={i} className="flex items-start gap-4">
@@ -124,9 +127,9 @@ export const BusinessSection = () => {
           size="lg"
           className="rounded-full text-lg px-14 py-6 border-[hsl(var(--cyan))] text-[hsl(var(--cyan))] hover:bg-[hsl(var(--cyan))]/10"
         >
-          Create Business Account
+          Integrate Valyd
         </Button>
-        <p className="text-white/60 mt-4 text-lg">Join Valyd Network. API integration in days.</p>
+        <p className="text-white/60 mt-4 text-lg">Enterprises operate in full trust — no friction, no liability, no fakes.</p>
       </div>
     </section>
   );
