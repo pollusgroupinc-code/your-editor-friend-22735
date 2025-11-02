@@ -9,7 +9,7 @@ export const Hero = () => {
 
       <div className="max-w-6xl text-center z-10 animate-fade-in-up">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold leading-tight mb-6 bg-gradient-to-r from-white via-[hsl(var(--cyan))] to-[hsl(var(--purple))] bg-clip-text text-transparent tracking-tight">
-          The Proof Layer of the Intelligent Internet.
+          The Privacy-First Proof Layer of the New Internet
         </h1>
         
         <h2 className="text-xl md:text-2xl lg:text-3xl font-light text-white/70 mb-8 max-w-4xl mx-auto leading-relaxed">
