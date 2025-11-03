@@ -1,5 +1,6 @@
 import { Bot, Sprout, Shield, Globe } from "lucide-react";
 import { useEffect, useRef } from "react";
+import { Button } from "./ui/button";
 export const HowValydWorks = () => {
   const sectionRef = useRef<HTMLElement>(null);
   const scrollContainerRef = useRef<HTMLDivElement>(null);
@@ -155,6 +156,13 @@ export const HowValydWorks = () => {
                 </div>
               </div>
             </div>)}
+        </div>
+
+        {/* CTA Button */}
+        <div className="text-center mt-12">
+          <Button size="lg" className="rounded-full text-base px-8">
+            Claim your identity agent
+          </Button>
         </div>
       </div>
     </section>;
