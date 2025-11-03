@@ -21,6 +21,7 @@ export const DeveloperSection = () => {
             size="lg"
             variant="outline"
             className="rounded-full text-base px-8 border-[hsl(var(--purple))] text-[hsl(var(--purple))] hover:bg-[hsl(var(--purple))]/10"
+            onClick={() => window.open('/valyd-documentation.html', '_blank')}
           >
             <Github className="mr-2" />
             View on GitHub
@@ -29,6 +30,7 @@ export const DeveloperSection = () => {
             size="lg"
             variant="outline"
             className="rounded-full text-base px-8 border-[hsl(var(--cyan))] text-[hsl(var(--cyan))] hover:bg-[hsl(var(--cyan))]/10"
+            onClick={() => window.open('/valyd-documentation.html', '_blank')}
           >
             <Download className="mr-2" />
             Download Test SDK
@@ -37,6 +39,7 @@ export const DeveloperSection = () => {
             size="lg"
             variant="outline"
             className="rounded-full text-base px-8 border-white/20 text-white hover:bg-white/5"
+            onClick={() => window.open('/valyd-documentation.html', '_blank')}
           >
             <BookOpen className="mr-2" />
             Developer Docs
