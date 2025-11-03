@@ -5,6 +5,7 @@ import { FeaturesBar } from "@/components/FeaturesBar";
 import { WhyValydExists } from "@/components/WhyValydExists";
 import { HowValydWorks } from "@/components/HowValydWorks";
 import { BusinessSection } from "@/components/BusinessSection";
+import { DeveloperSection } from "@/components/DeveloperSection";
 import { TheNetworkSection } from "@/components/TheNetworkSection";
 import { FinalCTA } from "@/components/FinalCTA";
 import { Footer } from "@/components/Footer";
@@ -18,6 +19,7 @@ const Index = () => {
       <WhyValydExists />
       <HowValydWorks />
       <BusinessSection />
+      <DeveloperSection />
       <TheNetworkSection />
       <FinalCTA />
       <Footer />
