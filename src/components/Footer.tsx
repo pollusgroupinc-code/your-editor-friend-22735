@@ -17,12 +17,12 @@ export const Footer = () => {
       <Dialog open={open} onOpenChange={setOpen}>
         <DialogTrigger asChild>
           <button className="mt-4 text-white/70 hover:text-[hsl(var(--cyan))] transition-colors underline">
-            Privacy Policy
+            Privacy Policy/Terms & Conditions
           </button>
         </DialogTrigger>
         <DialogContent className="bg-background border-[hsl(var(--cyan))]/20">
           <DialogHeader>
-            <DialogTitle>Privacy Policy</DialogTitle>
+            <DialogTitle>Privacy Policy/Terms & Conditions</DialogTitle>
             <DialogDescription className="pt-4 text-base">
               Valyd is owned by Pollus Group LLC and follows their privacy policy:{" "}
               <a
