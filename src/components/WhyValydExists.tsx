@@ -27,7 +27,7 @@ export const WhyValydExists = () => {
           </p>
           
           <div className="text-center py-12">
-            <p className="text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-white via-[hsl(var(--cyan))] to-[hsl(var(--purple))] bg-clip-text text-transparent py-0">
+            <p className="text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-white via-[hsl(var(--cyan))] to-[hsl(var(--purple))] bg-clip-text text-transparent py-2">
               That's why Valyd exists.
             </p>
             <p className="text-lg md:text-xl text-white/70 mt-4">
