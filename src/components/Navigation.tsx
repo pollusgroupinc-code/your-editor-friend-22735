@@ -17,7 +17,7 @@ export const Navigation = () => {
           href="https://valyd-business-experience-e8e39481.base44.app" 
           className="text-white/80 hover:text-[hsl(var(--cyan))] transition-colors text-sm"
         >
-          The Network
+          Join Network
         </a>
         <a 
           href="#business" 
