@@ -1,5 +1,6 @@
 import { Button } from "./ui/button";
 import { Github, Download, BookOpen } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export const DeveloperSection = () => {
   return (
@@ -30,10 +31,12 @@ export const DeveloperSection = () => {
             size="lg"
             variant="outline"
             className="rounded-full text-base px-8 border-[hsl(var(--cyan))] text-[hsl(var(--cyan))] hover:bg-[hsl(var(--cyan))]/10"
-            onClick={() => window.open('/valyd-documentation.html', '_blank')}
+            asChild
           >
-            <Download className="mr-2" />
-            Download Test SDK
+            <Link to="/developer-hub">
+              <Download className="mr-2" />
+              Download Test SDK
+            </Link>
           </Button>
           <Button 
             size="lg"
