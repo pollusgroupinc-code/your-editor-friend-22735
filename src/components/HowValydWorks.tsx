@@ -66,7 +66,7 @@ export const HowValydWorks = () => {
     action: "Each proof strengthens the network's graph of verified truth — connecting humans, businesses, and AI through cryptographic trust. From social platforms to logistics, elections to onboarding — the Valyd Network becomes the internet's default verification rail.",
     result: "A verifiable internet — built on math, not belief."
   }];
-  return <section ref={sectionRef} className="py-20 px-[5%] bg-gradient-to-b from-black/20 to-background">
+  return <section id="how" ref={sectionRef} className="py-20 px-[5%] bg-gradient-to-b from-black/20 to-background">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           

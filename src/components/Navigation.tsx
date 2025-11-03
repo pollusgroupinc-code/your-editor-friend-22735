@@ -25,7 +25,7 @@ export const Navigation = () => {
         >
           For Business
         </a>
-        <Button variant="default" className="rounded-full">
+        <Button variant="default" className="rounded-full" onClick={() => window.location.href = 'https://valyd-d47d199e.base44.app/'}>
           Create Your AI
         </Button>
       </div>
