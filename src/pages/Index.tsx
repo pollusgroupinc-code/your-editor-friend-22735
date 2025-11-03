@@ -16,8 +16,8 @@ const Index = () => {
       <Navigation />
       <Hero />
       <FeaturesBar />
-      <WhyValydExists />
       <HowValydWorks />
+      <WhyValydExists />
       <BusinessSection />
       <DeveloperSection />
       <TheNetworkSection />
