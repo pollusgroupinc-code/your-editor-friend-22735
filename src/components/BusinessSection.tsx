@@ -126,6 +126,7 @@ export const BusinessSection = () => {
           variant="outline" 
           size="lg"
           className="rounded-full text-lg px-14 py-6 border-[hsl(var(--cyan))] text-[hsl(var(--cyan))] hover:bg-[hsl(var(--cyan))]/10"
+          onClick={() => window.location.href = 'https://valyd-business-experience-e8e39481.base44.app'}
         >
           Integrate Valyd
         </Button>
