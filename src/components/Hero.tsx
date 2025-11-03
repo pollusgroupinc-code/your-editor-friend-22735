@@ -24,7 +24,7 @@ export const Hero = () => {
           <Button size="lg" className="rounded-full text-base px-8" onClick={() => window.location.href = 'https://valyd-d47d199e.base44.app/'}>
             Reserve Your Node
           </Button>
-          <Button size="lg" variant="outline" className="rounded-full text-base px-8 border-[hsl(var(--cyan))] text-[hsl(var(--cyan))] hover:bg-[hsl(var(--cyan))]/10">
+          <Button size="lg" variant="outline" className="rounded-full text-base px-8 border-[hsl(var(--cyan))] text-[hsl(var(--cyan))] hover:bg-[hsl(var(--cyan))]/10" onClick={() => window.location.href = 'https://valyd-business-experience-e8e39481.base44.app/'}>
             See the Network
           </Button>
         </div>
