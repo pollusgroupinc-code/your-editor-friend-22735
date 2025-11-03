@@ -11,7 +11,7 @@ export const FinalCTA = () => {
       </p>
       
       <div className="flex gap-6 justify-center flex-wrap mt-8">
-        <Button size="lg" className="rounded-full text-base px-8">
+        <Button size="lg" className="rounded-full text-base px-8" onClick={() => window.location.href = 'https://valyd-d47d199e.base44.app/'}>
           Reserve Your Node
         </Button>
         <Button 

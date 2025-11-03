@@ -160,7 +160,7 @@ export const HowValydWorks = () => {
 
         {/* CTA Button */}
         <div className="text-center mt-12">
-          <Button size="lg" className="rounded-full text-base px-8">
+          <Button size="lg" className="rounded-full text-base px-8" onClick={() => window.location.href = 'https://valyd-d47d199e.base44.app/'}>
             Claim your identity agent
           </Button>
         </div>

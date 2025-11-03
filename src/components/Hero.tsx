@@ -21,7 +21,7 @@ export const Hero = () => {
         </h2>
 
         <div className="flex gap-6 justify-center flex-wrap mb-12">
-          <Button size="lg" className="rounded-full text-base px-8">
+          <Button size="lg" className="rounded-full text-base px-8" onClick={() => window.location.href = 'https://valyd-d47d199e.base44.app/'}>
             Reserve Your Node
           </Button>
           <Button size="lg" variant="outline" className="rounded-full text-base px-8 border-[hsl(var(--cyan))] text-[hsl(var(--cyan))] hover:bg-[hsl(var(--cyan))]/10">
