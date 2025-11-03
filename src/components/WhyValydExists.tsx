@@ -1,6 +1,5 @@
 export const WhyValydExists = () => {
-  return (
-    <section className="py-32 px-[5%] bg-gradient-to-b from-black/40 to-black/20">
+  return <section className="py-32 px-[5%] bg-gradient-to-b from-black/40 to-black/20">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-8 text-white">
           Why Valyd Exists
@@ -28,7 +27,7 @@ export const WhyValydExists = () => {
           </p>
           
           <div className="text-center py-12">
-            <p className="text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-white via-[hsl(var(--cyan))] to-[hsl(var(--purple))] bg-clip-text text-transparent">
+            <p className="text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-white via-[hsl(var(--cyan))] to-[hsl(var(--purple))] bg-clip-text text-transparent py-0">
               That's why Valyd exists.
             </p>
             <p className="text-lg md:text-xl text-white/70 mt-4">
@@ -100,6 +99,5 @@ export const WhyValydExists = () => {
           </p>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
