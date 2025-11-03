@@ -83,7 +83,7 @@ export const HowValydWorks = () => {
         </div>
 
         {/* Tagline */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-3xl mx-auto mb-8">
           <p className="text-white/80 text-lg leading-relaxed">
             Every participant on Valyd — human, business, or AI — operates a private node on decentralized infrastructure.
             <br />
@@ -91,6 +91,13 @@ export const HowValydWorks = () => {
               Each node runs a Valyd Agent: an autonomous verifier that turns data into reusable, zero-knowledge proofs.
             </span>
           </p>
+        </div>
+
+        {/* CTA Button */}
+        <div className="text-center mb-16">
+          <Button size="lg" className="rounded-full text-base px-8" onClick={() => window.location.href = 'https://valyd-d47d199e.base44.app/'}>
+            Claim your identity agent
+          </Button>
         </div>
 
         {/* Desktop: Horizontal Scroll */}
@@ -156,13 +163,6 @@ export const HowValydWorks = () => {
                 </div>
               </div>
             </div>)}
-        </div>
-
-        {/* CTA Button */}
-        <div className="text-center mt-12">
-          <Button size="lg" className="rounded-full text-base px-8" onClick={() => window.location.href = 'https://valyd-d47d199e.base44.app/'}>
-            Claim your identity agent
-          </Button>
         </div>
       </div>
     </section>;
